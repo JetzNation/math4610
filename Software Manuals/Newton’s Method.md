@@ -17,4 +17,5 @@ The root is found at 17.11234335901345 after 10 iterations```
         print(f"iter: {iteration}, approximation: {x}")
         iteration += 1
     print(f"The root is found at {x} after {maxIter} iterations")```  
-    **Last Modified:** September/2022
+   
+**Last Modified:** September/2022
