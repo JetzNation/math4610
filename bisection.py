@@ -20,4 +20,4 @@ def bisection(g, a, b, tol):
 
     return c
 
-bisection(f_of_x(x))
+bisection(f_of_x, -3, 3, .0000001)
