@@ -5,10 +5,13 @@
 **Inputs:** The inputs for this program are the function that you want to find the roots of func, the derivative of that function fderiv, your initial guess x, and the maximum number of iterations maxIter.  
 **Output:** This method returns the current iteration, and the approximated root.  
 **Usage/Example:** Example output from this program:
-```iter: 9, approximation: 17.11234335901345
-The root is found at 17.11234335901345 after 10 iterations```  
+```
+iter: 9, approximation: 17.11234335901345
+The root is found at 17.11234335901345 after 10 iterations
+```  
 **Implementation/Code:** The following is the code for newtonsMethod()
-```def newtonsMethod(func, fderiv, x, maxIter):
+```
+def newtonsMethod(func, fderiv, x, maxIter):
     iteration = 0
 
     while (iteration < maxIter):
@@ -16,6 +19,7 @@ The root is found at 17.11234335901345 after 10 iterations```
         x = i
         print(f"iter: {iteration}, approximation: {x}")
         iteration += 1
-    print(f"The root is found at {x} after {maxIter} iterations")```  
+    print(f"The root is found at {x} after {maxIter} iterations")
+    ```  
    
 **Last Modified:** September/2022
