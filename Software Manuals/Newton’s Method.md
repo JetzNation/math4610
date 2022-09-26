@@ -6,7 +6,7 @@
 **Output:** This method returns the current iteration, and the approximated root.  
 **Usage/Example:** Example output from this program:
 ```iter: 9, approximation: 17.11234335901345
-The root is found at 17.11234335901345 after 10 iterations```
+The root is found at 17.11234335901345 after 10 iterations```  
 **Implementation/Code:** The following is the code for newtonsMethod()
 ```def newtonsMethod(func, fderiv, x, maxIter):
     iteration = 0
