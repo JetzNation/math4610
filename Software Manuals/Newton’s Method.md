@@ -19,7 +19,7 @@ def newtonsMethod(func, fderiv, x, maxIter):
         x = i
         print(f"iter: {iteration}, approximation: {x}")
         iteration += 1
-    print(f"The root is found at {x} after {maxIter} iterations")
+    print(f"The root is found at {x} after {iteration} iterations")
 ```  
    
 **Last Modified:** September/2022
