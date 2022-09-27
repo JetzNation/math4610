@@ -9,7 +9,7 @@
 iter: 1, approximation: 2.0
 The root is found at 2.0 after 1 iterations
 ```  
-**Implementation/Code:** The following is the code for secantMethod()
+**Implementation/Code:** The following is the code for newtonHybrid()
 ```
 def newtonHybrid(func, a, b, tol, maxIter):
     error = 10 * tol
