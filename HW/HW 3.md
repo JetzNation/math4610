@@ -1,3 +1,5 @@
+**Name:** Andy Skabelund  
+
 **Task 1**  
 The code from this assignment can be found at this address  
 https://github.com/JetzNation/math4610/tree/main/C%20code  
