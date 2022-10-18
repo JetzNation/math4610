@@ -201,7 +201,8 @@ float singlePrecision()
         }
     }
 }
-```  
+```
+```
 **Task 5:**  
 Here’s the steps I took to create a shared library:  
 <img width="566" alt="Screen Shot 2022-10-17 at 4 13 22 PM" src="https://user-images.githubusercontent.com/22015224/196310626-f46014e8-e2d8-4a77-b0e6-fdaba28707de.png">
