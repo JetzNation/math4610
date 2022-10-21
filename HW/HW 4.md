@@ -131,6 +131,7 @@ double absoluteError(double approx, double exact) {
 }
 ```  
 Relative error:  
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -201,7 +202,6 @@ float singlePrecision()
         }
     }
 }
-```
 ```
 **Task 5:**  
 Here’s the steps I took to create a shared library:  
