@@ -77,7 +77,7 @@ iter: 8, approximation: 0.0
 iter: 9, approximation: 0.0
 The root is found at 0.0 after 10 iterations
 ```  
-I added this line for the Secant method to create a table:  
+I added this line to the Secant method to create a table:  
 ```
 print(f"iter: {iteration}, x0= {x0}, x1= {x1}, approximation: {x1}")
 ```  
