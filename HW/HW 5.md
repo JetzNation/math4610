@@ -74,11 +74,11 @@ Output:
 These are the steps that I took to solve the differential equation:  
 <img width="475" alt="Screen Shot 2022-10-31 at 12 37 31 PM" src="https://user-images.githubusercontent.com/22015224/199114960-624f5ff8-f077-4399-92b3-f782470cf98d.png">  
 then  
-<img width="671" alt="Screen Shot 2022-10-31 at 12 38 57 PM" src="https://user-images.githubusercontent.com/22015224/199115833-b6c9d270-b93d-4963-94af-45c6276064c1.png">
+<img width="671" alt="Screen Shot 2022-10-31 at 12 38 57 PM" src="https://user-images.githubusercontent.com/22015224/199115833-b6c9d270-b93d-4963-94af-45c6276064c1.png">  
 The equation is:  
-<img width="233" alt="Screen Shot 2022-10-31 at 12 40 25 PM" src="https://user-images.githubusercontent.com/22015224/199117828-6026aa62-458d-49f3-a60d-d0b016616b11.png">
+<img width="233" alt="Screen Shot 2022-10-31 at 12 40 25 PM" src="https://user-images.githubusercontent.com/22015224/199117828-6026aa62-458d-49f3-a60d-d0b016616b11.png">  
 and finally  
-<img width="220" alt="Screen Shot 2022-10-31 at 12 41 05 PM" src="https://user-images.githubusercontent.com/22015224/199118076-58da0222-5038-44af-b521-00431d0fe3df.png">
+<img width="220" alt="Screen Shot 2022-10-31 at 12 41 05 PM" src="https://user-images.githubusercontent.com/22015224/199118076-58da0222-5038-44af-b521-00431d0fe3df.png">  
 My code for the exact equation is:  
 ```
 import numpy as np
