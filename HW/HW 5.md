@@ -1,6 +1,6 @@
 **Name:** Andy Skabelund  
 **Task 1:** My implicit Euler code is as follows:  
-```
+
 import numpy as np
 from newton import newtonsMethod
 
@@ -19,8 +19,8 @@ def implicitEuler(f, df, x0, t0, T, n):
         tval.append(t0)
         xval.append(x0)
     return tval, xval
-```
-    My Newton's method code is:  
+
+My Newton's method code is:  
 ```
 import numpy as np
 
