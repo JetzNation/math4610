@@ -24,7 +24,6 @@ My Newton's method code is:
 ```
 import numpy as np
 
-
 def newtonsMethod(func, fderiv, x0, tol, maxIter):
     iteration = 0
     error = 0
@@ -38,7 +37,7 @@ def newtonsMethod(func, fderiv, x0, tol, maxIter):
         x0 = x1
     return x0
 ```  
-    The code to test these is:  
+The code to test these is:  
 ```
 import numpy as np
 import matplotlib.pyplot as plt
