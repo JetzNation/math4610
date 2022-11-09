@@ -41,3 +41,37 @@ The two disadvantages for newton's method are:
 2. Newton's method requires the initial guess for the root needs to be pretty close to the actual root.  
 **9. Why would a person use the Secant method in place of Newton's method?**  
 Answer:  
+A person would use the secant method over newton's method because newton's method requires the function's derivative. That required derivative may not be easily obtainable.  
+**10. Distinguish between the terms data fitting, interpolation, and polynomial interpolation.**  
+Answer:  
+data fitting: The act of fitting models to data.  
+interpolation: Interpolation is a type of estimation, a method of constructing (finding) new data points based on the range of a discrete set of known data points.  
+polynomial interpolation: Polynomial interpolation is the interpolation of a given data set by the polynomial of lowest possible degree that passes through the points of the dataset.  
+**11. State one advantage and two disadvantages of using the monomial basis for polynomial interpolation.**  
+Answer:  
+One advantage is that it is easy to use because the derivatives and integrals are simple.  
+The disadvantages are:  
+1. We have to use the Vandermonde matrix in order to calculate this. This is a disadvantage because it becomes harder to work with as the matrix size increases.  
+2. It's error can be large because higher degree polynomials can cross the x-axis many times, resulting in many oscillations.  
+**12. Define Lagrange polynomials (the cardinal functions) and how are they used in the development of algorithms for numerical integration.**  
+Answer:  
+The Lagrange polynomial is the unique polynomial of lowest degree that interpolates a given set of data. It is used to approximate complicated integrals by rewriting it as a sum of coefficients that are multiplied by Lagrange polynomials.  
+**13. We have bumped into errors in the approximating roots of functions, approximating derivatives using difference quotients, approximations of solutions of differential equations and approximations of definite integrals.
+    $$$
+      | error | \leq C\ h^p
+    $$$
+    Write a brief explanation of the formula in terms the increment, $$h$$, the constant, $$C$$, and how to compute these parameters. Use an example like Newton's method for finding roots of functions.**  
+Answer:  
+C: This variable is dependant on the smoothness of the function. We can find it by using a Taylor series expansion.  
+h: As h goes to 0, the error will be order p and will be act like C * h^p.  
+These are both found by using the Taylor series on our root. Using this, we can see that the error for Newton's method is bounded by C such that h = ek and p = 2. This means that the error is bounded to the error the iteration before.  
+**14. Discuss the pros and cons of using the Trapezoid rule for approximating definite integrals.**  
+The advantages are:  
+1. It is more accurate than the left end point rule and right end point rule.  
+2. We are able to use its composite rule that can calculate n + 1 iterations.  
+The disadvantages are:  
+1. It's less accurate than Simpson's rule.  
+2. It is unable to accurately estimate the second derivative.  
+**15. Compare the explicit and implicit Euler methods for approximate solution of initial value problems. You can use the logistic equation to illustrate your explanations.**  
+Answer:  
+The explicit Euler method is able to approximate an ordinary differential equation by using tangent lines which is problematic because it underestimates concave functions and overestimates convex functions. The implicit method is the opposite in that it overestimates concave functions and underestimates convex functions. The implicit method is used over the explicit every once in a while because it is able to approximate ordinary differential equations that have solutions that can change quickly in an interval.
