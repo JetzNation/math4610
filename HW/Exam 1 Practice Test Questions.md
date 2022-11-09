@@ -37,7 +37,7 @@ The two advantages for newton's method are:
  Newton's method converges very rapidly.  
  Newton's method is very simple to program.  
 The two disadvantages for newton's method are:  
- Newton's method requires the derivative, and might not be easily obtainable. 
+ Newton's method requires the derivative, and might not be easily obtainable.  
  Newton's method requires the initial guess for the root needs to be pretty close to the actual root.  
 **9. Why would a person use the Secant method in place of Newton's method?**  
 Answer:  
