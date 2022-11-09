@@ -26,3 +26,18 @@ Robustness: Bisection is somewhat robust because it is simple to program, but it
 **6. Does the bisection method provide a robust platform for the development of algorithms for the solution of systems of nonlinear equations?**  
 Answer:  
 Bisection does not provide a robust platform because although it may find a root in the given interval, it doesn't describe the function near that root very well. It also only finds one root out of many possible roots. I would suggest the secant or newton's method to solve the nonlinear system.  
+**7. What are basic conditions for fixed point iteration to converge when searching for the root of a nonlinear function of a single variable. How are these conditions related to the iteration function, $$g(x))$$, defined in terms of the original function, $$f$$, defined as the input of a root finding problem?**  
+Answer:  
+There are two basic conditions that allow fixed point iteration to converge, they are:  
+1. |g(x*)| < 1 where f(x*) = 0  
+2. f(x) has to exist for all x inside of the given interval.  
+**8. State two advantages and two disadvantages of Newton's method for finding roots of nonlinear functions.**  
+Answer:  
+The two advantages for newton's method are:  
+1. Newton's method converges very rapidly.  
+2. Newton's method is very simple to program.  
+The two disadvantages for newton's method are:  
+1. Newton's method requires the derivative, and might not be easily obtainable. 
+2. Newton's method requires the initial guess for the root needs to be pretty close to the actual root.  
+**9. Why would a person use the Secant method in place of Newton's method?**  
+Answer:  
