@@ -29,16 +29,16 @@ Bisection does not provide a robust platform because although it may find a root
 **7. What are basic conditions for fixed point iteration to converge when searching for the root of a nonlinear function of a single variable. How are these conditions related to the iteration function, $$g(x))$$, defined in terms of the original function, $$f$$, defined as the input of a root finding problem?**  
 Answer:  
 There are two basic conditions that allow fixed point iteration to converge, they are:  
-1. |g(x*)| < 1 where f(x*) = 0  
-2. f(x) has to exist for all x inside of the given interval.  
+ |g(x*)| < 1 where f(x*) = 0  
+ f(x) has to exist for all x inside of the given interval.  
 **8. State two advantages and two disadvantages of Newton's method for finding roots of nonlinear functions.**  
 Answer:  
 The two advantages for newton's method are:  
-1. Newton's method converges very rapidly.  
-2. Newton's method is very simple to program.  
+ Newton's method converges very rapidly.  
+ Newton's method is very simple to program.  
 The two disadvantages for newton's method are:  
-1. Newton's method requires the derivative, and might not be easily obtainable. 
-2. Newton's method requires the initial guess for the root needs to be pretty close to the actual root.  
+ Newton's method requires the derivative, and might not be easily obtainable. 
+ Newton's method requires the initial guess for the root needs to be pretty close to the actual root.  
 **9. Why would a person use the Secant method in place of Newton's method?**  
 Answer:  
 A person would use the secant method over newton's method because newton's method requires the function's derivative. That required derivative may not be easily obtainable.  
@@ -51,8 +51,8 @@ polynomial interpolation: Polynomial interpolation is the interpolation of a giv
 Answer:  
 One advantage is that it is easy to use because the derivatives and integrals are simple.  
 The disadvantages are:  
-1. We have to use the Vandermonde matrix in order to calculate this. This is a disadvantage because it becomes harder to work with as the matrix size increases.  
-2. It's error can be large because higher degree polynomials can cross the x-axis many times, resulting in many oscillations.  
+ We have to use the Vandermonde matrix in order to calculate this. This is a disadvantage because it becomes harder to work with as the matrix size increases.  
+ It's error can be large because higher degree polynomials can cross the x-axis many times, resulting in many oscillations.  
 **12. Define Lagrange polynomials (the cardinal functions) and how are they used in the development of algorithms for numerical integration.**  
 Answer:  
 The Lagrange polynomial is the unique polynomial of lowest degree that interpolates a given set of data. It is used to approximate complicated integrals by rewriting it as a sum of coefficients that are multiplied by Lagrange polynomials.  
@@ -67,11 +67,11 @@ h: As h goes to 0, the error will be order p and will be act like C * h^p.
 These are both found by using the Taylor series on our root. Using this, we can see that the error for Newton's method is bounded by C such that h = ek and p = 2. This means that the error is bounded to the error the iteration before.  
 **14. Discuss the pros and cons of using the Trapezoid rule for approximating definite integrals.**  
 The advantages are:  
-1. It is more accurate than the left end point rule and right end point rule.  
-2. We are able to use its composite rule that can calculate n + 1 iterations.  
+ It is more accurate than the left end point rule and right end point rule.  
+ We are able to use its composite rule that can calculate n + 1 iterations.  
 The disadvantages are:  
-1. It's less accurate than Simpson's rule.  
-2. It is unable to accurately estimate the second derivative.  
+ It's less accurate than Simpson's rule.  
+ It is unable to accurately estimate the second derivative.  
 **15. Compare the explicit and implicit Euler methods for approximate solution of initial value problems. You can use the logistic equation to illustrate your explanations.**  
 Answer:  
 The explicit Euler method is able to approximate an ordinary differential equation by using tangent lines which is problematic because it underestimates concave functions and overestimates convex functions. The implicit method is the opposite in that it overestimates concave functions and underestimates convex functions. The implicit method is used over the explicit every once in a while because it is able to approximate ordinary differential equations that have solutions that can change quickly in an interval.
