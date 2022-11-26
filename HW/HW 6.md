@@ -86,3 +86,6 @@ Runtime = 0.0012080000
 **Task 4**  
 Our equation for approximating Euler's constant is:  
 <img width="78" alt="Screen Shot 2022-11-25 at 8 46 43 PM" src="https://user-images.githubusercontent.com/22015224/204071327-e4e80d57-87a4-462a-a87b-67df747ae740.png">  
+After solving the equation we get:  
+<img width="390" alt="Screen Shot 2022-11-25 at 8 50 30 PM" src="https://user-images.githubusercontent.com/22015224/204071427-9f5244a8-2dec-450b-b0c1-f7c61bd7e99a.png">  
+My code for this is the following:  
