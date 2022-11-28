@@ -89,3 +89,27 @@ Our equation for approximating Euler's constant is:
 After solving the equation we get:  
 <img width="390" alt="Screen Shot 2022-11-25 at 8 50 30 PM" src="https://user-images.githubusercontent.com/22015224/204071427-9f5244a8-2dec-450b-b0c1-f7c61bd7e99a.png">  
 My code for this is the following:  
+```
+from ExplicitEuler import explicitEuler
+
+def eApprox(f, x0, t0, T, n):
+    t, x = explicitEuler(f, x0, t0, T, n)
+    return x[n - 1]
+
+n = 10
+
+for i in range(6):
+    approximation = eApprox(lambda t, x: x, 1, 0, 1, n)
+    print("n :", n, "e approximation :", approximation)
+    n *= 10
+```  
+Output:  
+```
+n : 10 e approximation : 2.357947691
+n : 100 e approximation : 2.6780334944767583
+n : 1000 e approximation : 2.7142097225133828
+n : 10000 e approximation : 2.7178741394112853
+n : 100000 e approximation : 2.7182410547639475
+n : 1000000 e approximation : 2.718277751041721
+```  
+**Task 5:**  
