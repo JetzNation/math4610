@@ -60,34 +60,6 @@ Output:
 **Task 2:**  
 My code for task 2 is the following:  
 ```
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@JetzNation 
-jake-daniels16
-/
-math4610
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-math4610/Linear_Algebra_Code/C Code/power_method.c
-@jake-daniels16
-jake-daniels16 lots of hw screenshots
-Latest commit ff3481c 15 days ago
- History
- 1 contributor
-30 lines (28 sloc)  975 Bytes
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
