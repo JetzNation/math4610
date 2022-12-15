@@ -172,3 +172,7 @@ My code to test this code is:
     printf("%f", lambda_3);
 }
 ```  
+The output was the same as the unoptimized code.  
+I wrote a code to test the 5x5, 10x10, and 50x50 matrices and record their times but it was too long to put here.  
+Output:  
+<img width="536" alt="Screen Shot 2022-12-15 at 10 17 30 AM" src="https://user-images.githubusercontent.com/22015224/207925911-1a263c4b-e8d2-46c7-b077-f808a68fe104.png">  
